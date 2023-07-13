@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+header h3 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 5px 5px rgb(65, 65, 65), 0 -4px 5px rgb(2, 163, 195), 4px 0 4px rgb(68, 68, 68), 4px 0 4px rgb(5, 118, 174);
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 45%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+
+section .img img {
+    height: 30em;
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+section .bio {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    text-align: justify;
+    display: block;
+    margin: 50px 40px;
+    padding: 15px 20px;
+    border: 7px solid #434242;
+    border-radius: 20px;
+}
+
+.quotes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quo h3 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin: 50px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 2px 2px rgb(214, 20, 20), 0 -3px 3px rgb(59, 59, 59), 2px 0 2px rgb(221, 13, 13), 3px 0 3px rgb(40, 40, 40);
+}
+
+.quotes img {
+    width: 28%;
+    height: 30em;
+    margin: auto;
+    padding: 2px;
+    border: 2px solid rgb(80, 80, 80);
+    border-radius: 10px;
+}
+
+footer h3 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    background-color: #4f4f4f28;
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 2px 2px rgb(1, 152, 152), 0 -3px 3px rgb(59, 59, 59), 2px 0 2px rgb(4, 160, 160), 3px 0 3px rgb(40, 40, 40);
+}
